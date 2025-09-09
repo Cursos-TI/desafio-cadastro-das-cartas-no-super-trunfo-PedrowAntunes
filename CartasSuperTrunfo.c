@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>  // Biblioteca adicionada para manipulação de strings (se necessário futuramente)
+#include <string.h> 
 
 int main() {
     // --- Declaração das variáveis ---
