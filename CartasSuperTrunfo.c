@@ -87,38 +87,81 @@ int main() {
     // --- SEGUNDO MENU ---
     printf("\n===== SEGUNDO ATRIBUTO =====\n");
     switch (opcao1) {
-        case 1: printf("2 - Area\n3 - PIB\n4 - Pontos Turisticos\n5 - Densidade\n6 - PIB per Capita\n7 - Super Poder\n"); break;
-        case 2: printf("1 - Populacao\n3 - PIB\n4 - Pontos Turisticos\n5 - Densidade\n6 - PIB per Capita\n7 - Super Poder\n"); break;
-        case 3: printf("1 - Populacao\n2 - Area\n4 - Pontos Turisticos\n5 - Densidade\n6 - PIB per Capita\n7 - Super Poder\n"); break;
-        case 4: printf("1 - Populacao\n2 - Area\n3 - PIB\n5 - Densidade\n6 - PIB per Capita\n7 - Super Poder\n"); break;
-        case 5: printf("1 - Populacao\n2 - Area\n3 - PIB\n4 - Pontos Turisticos\n6 - PIB per Capita\n7 - Super Poder\n"); break;
-        case 6: printf("1 - Populacao\n2 - Area\n3 - PIB\n4 - Pontos Turisticos\n5 - Densidade\n7 - Super Poder\n"); break;
-        case 7: printf("1 - Populacao\n2 - Area\n3 - PIB\n4 - Pontos Turisticos\n5 - Densidade\n6 - PIB per Capita\n"); break;
-        default: printf("Opcao invalida!\n"); return 0;
+        case 1: 
+            printf("2 - Area\n3 - PIB\n4 - Pontos Turisticos\n5 - Densidade\n6 - PIB per Capita\n7 - Super Poder\n"); 
+            break;
+        case 2: 
+            printf("1 - Populacao\n3 - PIB\n4 - Pontos Turisticos\n5 - Densidade\n6 - PIB per Capita\n7 - Super Poder\n"); 
+            break;
+        case 3: 
+            printf("1 - Populacao\n2 - Area\n4 - Pontos Turisticos\n5 - Densidade\n6 - PIB per Capita\n7 - Super Poder\n"); 
+            break;
+        case 4: 
+            printf("1 - Populacao\n2 - Area\n3 - PIB\n5 - Densidade\n6 - PIB per Capita\n7 - Super Poder\n"); 
+            break;
+        case 5: 
+            printf("1 - Populacao\n2 - Area\n3 - PIB\n4 - Pontos Turisticos\n6 - PIB per Capita\n7 - Super Poder\n"); 
+            break;
+        case 6: 
+            printf("1 - Populacao\n2 - Area\n3 - PIB\n4 - Pontos Turisticos\n5 - Densidade\n7 - Super Poder\n"); 
+            break;
+        case 7: 
+            printf("1 - Populacao\n2 - Area\n3 - PIB\n4 - Pontos Turisticos\n5 - Densidade\n6 - PIB per Capita\n"); 
+            break;
+        default: printf("Opcao invalida!\n"); 
+        return 0;
     }
     printf("Escolha o SEGUNDO atributo: ");
     scanf("%d", &opcao2);
 
     // --- ATRIBUTO 1 ---
     switch (opcao1) {
-        case 1: v1c1 = populacao1; v1c2 = populacao2; break;
-        case 2: v1c1 = area1; v1c2 = area2; break;
-        case 3: v1c1 = pib1; v1c2 = pib2; break;
-        case 4: v1c1 = pontosturisticos1; v1c2 = pontosturisticos2; break;
-        case 5: v1c1 = densidade1; v1c2 = densidade2; break;
-        case 6: v1c1 = pibpercapita1; v1c2 = pibpercapita2; break;
-        case 7: v1c1 = superpoder1; v1c2 = superpoder2; break;
+        case 1: 
+            v1c1 = populacao1; v1c2 = populacao2; 
+            break;
+        case 2: 
+            v1c1 = area1; v1c2 = area2; 
+            break;
+        case 3: 
+            v1c1 = pib1; v1c2 = pib2; 
+            break;
+        case 4: 
+            v1c1 = pontosturisticos1; v1c2 = pontosturisticos2; 
+            break;
+        case 5: 
+            v1c1 = densidade1; v1c2 = densidade2; 
+            break;
+        case 6: 
+            v1c1 = pibpercapita1; v1c2 = pibpercapita2; 
+            break;
+        case 7: 
+            v1c1 = superpoder1; v1c2 = superpoder2; 
+            break;
     }
 
     // --- ATRIBUTO 2 ---
     switch (opcao2) {
-        case 1: v2c1 = populacao1; v2c2 = populacao2; break;
-        case 2: v2c1 = area1; v2c2 = area2; break;
-        case 3: v2c1 = pib1; v2c2 = pib2; break;
-        case 4: v2c1 = pontosturisticos1; v2c2 = pontosturisticos2; break;
-        case 5: v2c1 = densidade1; v2c2 = densidade2; break;
-        case 6: v2c1 = pibpercapita1; v2c2 = pibpercapita2; break;
-        case 7: v2c1 = superpoder1; v2c2 = superpoder2; break;
+        case 1: 
+            v2c1 = populacao1; v2c2 = populacao2;
+            break;
+        case 2: 
+            v2c1 = area1; v2c2 = area2; 
+            break;
+        case 3: 
+            v2c1 = pib1; v2c2 = pib2; 
+            break;
+        case 4: 
+            v2c1 = pontosturisticos1; v2c2 = pontosturisticos2; 
+            break;
+        case 5: 
+            v2c1 = densidade1; v2c2 = densidade2; 
+            break;
+        case 6: 
+            v2c1 = pibpercapita1; v2c2 = pibpercapita2; 
+            break;
+        case 7: 
+            v2c1 = superpoder1; v2c2 = superpoder2; 
+            break;
     }
 
 
